@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Britlex</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./sass/main.css" />
   </head>
   <body>
     <!-- ?Hesder -->
@@ -23,24 +29,26 @@
       <!-- ?Section 1 -->
       <section>
         <h1>Learn Any Foreign Language</h1>
-        <p>
+        <p class="title">
           Learn Any Foreign Language With our teachers who write a program for
           each student, you will be able to make your first sketch after the
           first lesson. Get started
         </p>
-        <button type="button">Get started</button>
-        <img src="./images/learning-languages.jpg" alt="foto" width="654" />
+        <button type="button" class="btn button_hero" data-modal-open>
+          <span class="button__text">Замовити послугу</span>
+        </button>
+        <!-- <img src="./images/learning-languages.jpg" alt="foto" width="654" /> -->
       </section>
       <!-- ?Section 2 -->
       <section>
         <h2 id="skills">Skills</h2>
         <ul>
           <li>
-            <img
+            <!-- <img
               src="./images/Shared-goals-bro.jpg"
               alt="Shared goals"
               width="390"
-            />
+            /> -->
             <h3>Speaking</h3>
             <p>
               Improve your English skills and confidence. Live classes and
@@ -57,6 +65,10 @@
               iusto quas perspiciatis. Ullam magni, quas quidem aut omnis eos
               veritatis?
             </details>
+
+            <button type="button" class="btn button" data-modal-open>
+              <span class="button__text">Замовити послугу</span>
+            </button>
           </li>
           <li>
             <img
@@ -117,7 +129,7 @@
       <!-- ?Section 3 -->
       <section>
         <h2 id="about">About Us</h2>
-        <p>
+        <p class="title">
           The model offers a framework for discussing problems related to the
           user's experience, as well as possible ways and means of solving them.
           Application development begins at the top level (strategy), where the
@@ -151,7 +163,7 @@
           <li>
             <img src="./images/online.jpg" alt="Online course" width="426" />
             <h3>Self-study online course</h3>
-            <p>
+            <p class="title">
               Start learning English online in live classes with qualified EC
               teachers and students from all over the world.
             </p>

@@ -1,0 +1,12 @@
+.title {
+  color: aqua;
+  @include font-desktop();
+}
+
+.button_hero {
+  width: 192px;
+  background-color: tomato;
+
+  @include font-btn($fw: 900);
+  border: 3px solid #f8d24e;
+}
